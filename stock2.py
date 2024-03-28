@@ -92,10 +92,10 @@ def main():
     report = ''
     report += "COSTI\n"
     report += separator() + "\n"
-    report += "Il valore dell'inventario ad eliminarsi (come vendita al dettaglio) è: €{:.2f}\n".format(costoEl)
-    report += "Il valore dell'inventario ad eliminarsi (come vendita all'ingrosso) è: €{:.2f}\n".format(costoElBlu)
-    report += "Il valore dell'intero inventario (come vendita al dettaglio) è: €{:.2f}\n".format(costoTot)
-    report += "Il valore dell'intero inventario (come vendita all'ingrosso) è: €{:.2f}\n".format(costoTotBlu)
+    report += "Il valore dell'inventario ad eliminarsi (ivato) è: €{:.2f}\n".format(costoEl)
+    report += "Il valore dell'inventario ad eliminarsi (netto) è: €{:.2f}\n".format(costoElBlu)
+    report += "Il valore dell'intero inventario (ivato) è: €{:.2f}\n".format(costoTot)
+    report += "Il valore dell'intero inventario (netto) è: €{:.2f}\n".format(costoTotBlu)
     report += "La percentuale di inventario (relativa al valore) ad eliminarsi è: {:.2f}%\n".format(costoEl / costoTot * 100)
     report += separator() + "\n"
     report += "\n\n\n"

@@ -1,26 +1,26 @@
 COSTI
 ==============================
-Il valore dell'inventario ad eliminarsi (come vendita al dettaglio) è: €64194.45
-Il valore dell'inventario ad eliminarsi (come vendita all'ingrosso) è: €52650.68
-Il valore dell'intero inventario (come vendita al dettaglio) è: €72638.72
-Il valore dell'intero inventario (come vendita all'ingrosso) è: €59569.63
-La percentuale di inventario (relativa al valore) ad eliminarsi è: 88.37%
+Il valore dell'inventario ad eliminarsi (ivato) è: €175461.91
+Il valore dell'inventario ad eliminarsi (netto) è: €143855.69
+Il valore dell'intero inventario (ivato) è: €202463.25
+Il valore dell'intero inventario (netto) è: €165985.99
+La percentuale di inventario (relativa al valore) ad eliminarsi è: 86.66%
 ==============================
 
 
 
 QUANTITÀ
 ==============================
-Su 11357 pezzi fisici presenti in inventario, ne vanno eliminati 9353
-La percentuale di inventario (relativa alle quantità) ad eliminarsi è: 82.35%
+Su 11324 pezzi fisici presenti in inventario, ne vanno eliminati 9324
+La percentuale di inventario (relativa alle quantità) ad eliminarsi è: 82.34%
 ==============================
 
 
 
 CODICI
 ==============================
-Su 3028 codici totali presenti in inventario, ne vanno eliminati 2485
-La percentuale di inventario (relativa alla quantità di codici) ad eliminarsi è: 82.07%
+Su 3018 codici totali presenti in inventario, ne vanno eliminati 2482
+La percentuale di inventario (relativa alla quantità di codici) ad eliminarsi è: 82.24%
 ==============================
 
 

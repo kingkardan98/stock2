@@ -31,21 +31,15 @@ def elaboraCosti(data):
             try:
                 totalCostBluEl += int(quantity[0]) * costBlu
                 totalCostEl += int(quantity[0]) * cost
-            except ValueError:
-                print(quantity[0], costBlu)
-                sys.exit()
-            except TypeError:
-                print(line[0], costBlu)
-                sys.exit()
+            except (ValueError, TypeError):
+                pass
+
         try:
             totalCostBlu += int(quantity[0]) * costBlu
             totalCost += int(quantity[0]) * cost
-        except ValueError:
+
+        except (ValueError, TypeError):
             pass
-        except TypeError:
-            print(line)
-            print("Errore di tipo")
-            sys.exit()
         
         i = data.index(line)
         if i % 100 == 0:

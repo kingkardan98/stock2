@@ -5,10 +5,12 @@
 
 # For writer functions, all indexes must be considered Pythonic, so subtract 1 from the structure of the Excel line.
 
+equalNumber = 180 - 22
+
 def applWriter(applFile, data):
     with open(applFile, 'w+') as outfile:
-        outfile.write('CODICE                  ||    DESCRIZIONE                                           ||    APPLICAZIONI                                                                            ||\n')
-        outfile.write('='*180 + '\n')
+        outfile.write('CODICE                  ||    DESCRIZIONE                                           ||    APPLICAZIONI                                                                            \n')
+        outfile.write('='*equalNumber + '\n')
         for line in data:
             # Check for None, so the program doesn't break.
             # When everything is filled out, it shouldn't matter.
@@ -28,4 +30,4 @@ def applWriter(applFile, data):
             while len(line[5]) < 20:
                 line[5] += ' '
             outfile.write(line[0].upper().replace("'", '') + '    ||    ' + line[4].upper() + '    ||    ' + line[5].upper() + '\n')
-            outfile.write('_'*180 + '\n')
+            outfile.write('_'*equalNumber + '\n')
